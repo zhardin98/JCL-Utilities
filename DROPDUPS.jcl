@@ -2,6 +2,8 @@
 //     CLASS=B,MSGCLASS=S,MSGLEVEL=(1,1),REGION=250M,
 //     NOTIFY=&SYSUID
 //**********************************************************************
+//* DROP DUPLICATE RECORDS
+//**********************************************************************
 //DROP    EXEC PGM=SORT 
 //SYSOUT   DD SYSOUT=*
 //SORTMSG  DD SYSOUT=*

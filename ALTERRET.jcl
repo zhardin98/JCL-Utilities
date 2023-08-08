@@ -2,6 +2,8 @@
 //     CLASS=B,MSGCLASS=S,MSGLEVEL=(1,1),REGION=250M,
 //     NOTIFY=&SYSUID
 //**********************************************************************
+//* ALTER GDG RETENTION                                                
+//**********************************************************************
 //ALTER    EXEC PGM=IDCAMS
 //SYSPRINT DD   SYSOUT=*
 //SYSIN    DD   *

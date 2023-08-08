@@ -2,6 +2,8 @@
 //     CLASS=B,MSGCLASS=S,MSGLEVEL=(1,1),REGION=250M,
 //     NOTIFY=&SYSUID
 //**********************************************************************
+//* CONCATENATE FILES                                                  
+//**********************************************************************
 //CONCAT    EXEC PGM=IEBGENER,COND=(0,NE)
 //SYSPRINT  DD SYSOUT=*
 //SYSUT1    DD DSN=PROD.FILE.ONE,               *INPUTS

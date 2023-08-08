@@ -2,6 +2,8 @@
 //     CLASS=B,MSGCLASS=S,MSGLEVEL=(1,1),REGION=250M,
 //     NOTIFY=&SYSUID
 //**********************************************************************
+//* TRUNCATE THE FIRST 10,000 RECORDS OF A FILE 
+//**********************************************************************
 //SORTCOPY EXEC PGM=SORT
 //SORTIN   DD  DSN=PROD.FILE.SORTIN,
 //             DISP=SHR
