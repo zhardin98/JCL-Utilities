@@ -11,7 +11,7 @@
 //          DD DSN=PROD.FILE.TWO,
 //             DISP=SHR
 //SYSUT2    DD DSN=PROD.FILE.CONCAT,            *OUTPUT
-//             DISP=(NEW,CATLG,DELETE),
+//             DISP=(NEW,CATLG),
 //             UNIT=DISK,
 //             SPACE=(CYL,(10,5),RLSE),
 //             DCB=(RECFM=FB,LRECL=80)

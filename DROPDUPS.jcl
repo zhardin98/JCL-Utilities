@@ -10,7 +10,7 @@
 //SORTIN   DD  DSN=INPUT,
 //             DISP=SHR
 //SORTOUT  DD  DSN=OUTPUT,
-//             DISP=(NEW,CATLG,DELETE),
+//             DISP=(NEW,CATLG),
 //             UNIT=DISK,
 //             SPACE=(CYL,(1500,500),RLSE), 
 //             DCB(RECFM=FB,LRECL=80)    

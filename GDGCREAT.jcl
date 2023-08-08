@@ -16,7 +16,7 @@
 //STEP20 EXEC PGM=IDCAMS
 //FILEIN   DD DUMMY
 //FILEOUT  DSN=NEW.GDG.NAME(+1),
-//             DISP=(NEW,CATLG,DELETE),
+//             DISP=(NEW,CATLG),
 //             UNIT=DISK,
 //             SPACE=(CYL,(1500,500),RLSE), 
 //             DCB(RECFM=FB,LRECL=80)   

@@ -9,6 +9,6 @@
 //SYSUT1    DD DSN=PROD.FILE.DISK,               
 //             DISP=SHR
 //SYSUT2    DD DSN=PROD.FILE.TAPE,            
-//             DISP=(NEW,CATLG,DELETE),
+//             DISP=(NEW,CATLG),
 //             UNIT=TAPE
 //SYSIN     DD DUMMY

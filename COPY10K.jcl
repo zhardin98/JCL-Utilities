@@ -8,7 +8,7 @@
 //SORTIN   DD  DSN=PROD.FILE.SORTIN,
 //             DISP=SHR
 //SORTOUT  DD  DSN=PROD.FILE.SORTOUT,
-//             DISP=(NEW,CATLG,DELETE),
+//             DISP=(NEW,CATLG),
 //             UNIT=DISK,
 //             SPACE=(CYL,(1500,500),RLSE), 
 //             DCB(RECFM=FB,LRECL=80)    
